@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+  height: 50vh;
+  margin: 0px auto;
+  font-family: "Abel";
+}
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  align-items: center;
+}
+#navMid {
+  display: flex;
+  font-family: "Allerta";
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+#navMid div:nth-child(1)::after {
+  content: "";
+  height: 2px;
+  width: 3.4rem;
+  background-color: #000;
+  position: absolute;
+}
+
+#navEnd {
+  display: flex;
+  gap: 30px;
+}
+
+/* Main Section */
+
+#midWhole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+#midWholePart1 {
+}
+#midWholePart11 {
+  margin-top: 150px;
+  line-height: 1;
+  margin-left: 20px;
+}
+
+#monstera {
+  font-family: "Allerta";
+  font-size: 6rem;
+}
+#midWholePart11 ul li {
+  max-width: 470px;
+}
+
+#midWholePart12 {
+}
+#midWholePart121 h1 {
+  background-color: #466d50;
+  display: inline-block;
+  margin: 20px 20px;
+  padding: 5px 30px 5px 20px;
+  border-radius: 25px;
+  color: #ffff;
+  font-family: "Allerta";
+  font-weight: 200;
+  cursor: pointer;
+}
+#midWholePart121 h1::after {
+  content: ">";
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  left: 5px;
+  bottom: 3px;
+}
+
+#midWholePart13 {
+  display: flex;
+  align-items: center;
+}
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.midWholePart13Parts h4 {
+  font-family: "Allerta";
+}
+
+#imgMain {
+  height: 50vh;
+}
